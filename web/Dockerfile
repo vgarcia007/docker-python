@@ -1,4 +1,4 @@
-FROM python:3.8
+FROM python:alpine3.19
 ADD . /web
 WORKDIR /web
 RUN pip install -r requirements.txt
